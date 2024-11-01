@@ -27,6 +27,7 @@ module.exports = {
 ```
 
 ### 3. Add the Tailwind directives to your CSS
+```src/input.css```
 ```
 @tailwind base;
 @tailwind components;
