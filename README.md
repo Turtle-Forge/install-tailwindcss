@@ -59,3 +59,27 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 </body>
 </html>
 ```
+
+# Tips-tips
+
+### 1. Contoh struktur folder
+![image](https://github.com/user-attachments/assets/8c2ff7b1-787b-4ca6-a097-4df6880b2431)
+
+### 2. Start the Tailwind CLI build process dengan memasukan script nya ke dalam file package.json:
+```
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+```
+dan setelah pada saat start tailwind, gunakan perintah ini: ```npm run dev```
+
+### 3. Terakhir jika dirasa sudah fix dan mau deploy maka simpan file css terakhir, yakni dengan perintah berikut ini:
+```
+npx tailwindcss -o ./public/css/style.css --minify
+```
+atau bisa memasukannya kedalam package.json seperti ```dev``` diatas yakni:
+```
+    "final": "npx tailwindcss -o ./public/css/style.css --minify"
+```
+
