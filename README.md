@@ -82,4 +82,4 @@ atau bisa memasukannya kedalam package.json seperti ```dev``` diatas yakni:
 ```
     "final": "npx tailwindcss -o ./public/css/style.css --minify"
 ```
-
+dan dapat dijalankan dengan npm run final
