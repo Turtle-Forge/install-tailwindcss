@@ -1,4 +1,8 @@
 # install-tailwindcss
+### 0. Requirements
+**Code Editor:** VSCode <br>
+**VSCode Extension:** Tailwind CSS IntelliSense <br>
+**Package manager:** NPM <br>
 ### 1. Install
 1. Buka direktori project
 2. inisialisasi npm :
