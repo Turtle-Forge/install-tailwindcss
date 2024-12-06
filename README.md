@@ -87,5 +87,6 @@ atau bisa memasukannya kedalam package.json seperti ```dev``` diatas yakni:
 ```
     "final": "npx tailwindcss -o ./public/css/style.css --minify"
 ```
+dan dapat dijalankan dengan perintah ```npm run final``` <br>
 karena telah di minify maka selanjutnya ganti semua file html atau apapun itu yang menggunakan style.css dengan file ini. ganti di bagian tag link dan arahkan ke path file minify ini yakni ``` /public/css/style.css ```
-dan dapat dijalankan dengan perintah ```npm run final```
+
